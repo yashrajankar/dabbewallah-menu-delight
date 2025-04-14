@@ -1,0 +1,13 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100">
+  <style>
+    .dabbe { fill: #1A1A1A; }
+    .wallah { fill: #F05A28; }
+    .line { fill: #FFC72C; }
+    .tagline { fill: #1A1A1A; font-size: 14px; font-family: Arial, sans-serif; }
+  </style>
+  <rect class="line" x="85" y="80" width="70" height="5" />
+  <text x="85" y="60" class="dabbe">dabbe</text>
+  <text x="165" y="60" class="wallah">wallah</text>
+  <text x="260" y="60" class="tagline">TIFFIN SERVICES & DINE IN</text>
+</svg>

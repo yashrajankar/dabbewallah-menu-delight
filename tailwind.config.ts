@@ -64,10 +64,12 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				dabbewallah: {
-					orange: '#F97316',
-					'soft-orange': '#FEC6A1',
-					peach: '#FDE1D3',
-					red: '#ea384c'
+					black: '#1A1A1A',
+					orange: '#F05A28',
+					'light-orange': '#FF7D54',
+					yellow: '#FFC72C',
+					'soft-orange': '#FFD4C5',
+					'light-yellow': '#FFE68C'
 				}
 			},
 			borderRadius: {
@@ -101,12 +103,23 @@ export default {
 						opacity: '1',
 						transform: 'translateY(0)'
 					}
+				},
+				'slide-in-right': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateX(20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateX(0)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'fade-in': 'fade-in 0.5s ease-out'
+				'fade-in': 'fade-in 0.5s ease-out',
+				'slide-in-right': 'slide-in-right 0.5s ease-out'
 			}
 		}
 	},

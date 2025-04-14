@@ -11,20 +11,23 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-dabbewallah-orange text-white shadow-md sticky top-0 z-50">
+    <nav className="bg-dabbewallah-black text-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
-            <ChefHat className="h-6 w-6" />
-            <span className="text-xl font-bold">Dabbewallah</span>
+            <ChefHat className="h-6 w-6 text-dabbewallah-orange" />
+            <div className="flex items-end">
+              <span className="text-white text-xl font-bold">dabbe</span>
+              <span className="text-dabbewallah-orange text-xl font-bold">wallah</span>
+            </div>
           </Link>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6">
-            <Link to="/" className="hover:text-dabbewallah-peach transition-colors">Home</Link>
-            <Link to="/menu" className="hover:text-dabbewallah-peach transition-colors">Menu</Link>
-            <Link to="/contact" className="hover:text-dabbewallah-peach transition-colors">Contact</Link>
-            <Link to="/terms" className="hover:text-dabbewallah-peach transition-colors">Terms & Conditions</Link>
+            <Link to="/" className="hover:text-dabbewallah-orange transition-colors">Home</Link>
+            <Link to="/menu" className="hover:text-dabbewallah-orange transition-colors">Menu</Link>
+            <Link to="/contact" className="hover:text-dabbewallah-orange transition-colors">Contact</Link>
+            <Link to="/terms" className="hover:text-dabbewallah-orange transition-colors">Terms & Conditions</Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -39,12 +42,12 @@ const Navbar = () => {
 
       {/* Mobile Menu Panel */}
       {isOpen && (
-        <div className="md:hidden bg-dabbewallah-orange animate-fade-in">
+        <div className="md:hidden bg-dabbewallah-black animate-fade-in">
           <div className="container mx-auto px-4 py-2 flex flex-col space-y-3">
-            <Link to="/" className="py-2 hover:text-dabbewallah-peach" onClick={toggleMenu}>Home</Link>
-            <Link to="/menu" className="py-2 hover:text-dabbewallah-peach" onClick={toggleMenu}>Menu</Link>
-            <Link to="/contact" className="py-2 hover:text-dabbewallah-peach" onClick={toggleMenu}>Contact</Link>
-            <Link to="/terms" className="py-2 hover:text-dabbewallah-peach" onClick={toggleMenu}>Terms & Conditions</Link>
+            <Link to="/" className="py-2 hover:text-dabbewallah-orange" onClick={toggleMenu}>Home</Link>
+            <Link to="/menu" className="py-2 hover:text-dabbewallah-orange" onClick={toggleMenu}>Menu</Link>
+            <Link to="/contact" className="py-2 hover:text-dabbewallah-orange" onClick={toggleMenu}>Contact</Link>
+            <Link to="/terms" className="py-2 hover:text-dabbewallah-orange" onClick={toggleMenu}>Terms & Conditions</Link>
           </div>
         </div>
       )}

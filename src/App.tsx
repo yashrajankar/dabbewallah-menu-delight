@@ -13,6 +13,7 @@ import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Pricing from "./pages/Pricing";
 
 const App = () => {
   // Create a new QueryClient instance inside the component
@@ -32,6 +33,7 @@ const App = () => {
                 <Route path="/menu" element={<Menu />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/terms" element={<Terms />} />
+                <Route path="/pricing" element={<Pricing />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </main>

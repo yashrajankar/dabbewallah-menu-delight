@@ -591,4 +591,50 @@ export const termsAndConditions = [
   "No delivery of food to rooms. Dining is only allowed in the mess area."
 ];
 
+// Add pricing data for reference (this can be used in the future if needed)
+export const pricingData = {
+  monthlyTiffin: [
+    { type: "Full Tiffin", mealType: "Veg", frequency: "2 time", roti: "5-7", price: 2300 },
+    { type: "Full Tiffin", mealType: "Non-veg", frequency: "2 time", roti: "5-7", price: 2400 },
+    { type: "Full Tiffin", mealType: "Veg", frequency: "1 time", roti: "5-7", price: 1300 },
+    { type: "Full Tiffin", mealType: "Non-veg", frequency: "1 time", roti: "5-7", price: 1400 },
+    { type: "Half Tiffin", mealType: "Veg", frequency: "2 time", roti: "3", price: 1600 },
+    { type: "Half Tiffin", mealType: "Non-veg", frequency: "2 time", roti: "3", price: 1800 }
+  ],
+  monthlyDineIn: [
+    { dineIn: "Veg Boys", unlimited: true, frequency: "2 time", price: 2300 },
+    { dineIn: "Veg Girl", unlimited: true, frequency: "2 time", price: 1800 },
+    { dineIn: "Non-veg Boy", unlimited: true, frequency: "2 time", price: 2400 },
+    { dineIn: "Non-veg Girl", unlimited: true, frequency: "2 time", price: 2000 }
+  ],
+  monthlyDineIn1Time: [
+    { dineIn: "Veg Boys", unlimited: true, frequency: "1 time", price: 1300 },
+    { dineIn: "Veg Girl", unlimited: true, frequency: "1 time", price: 1200 },
+    { dineIn: "Non-veg Boy", unlimited: true, frequency: "1 time", price: 1400 },
+    { dineIn: "Non-veg Girl", unlimited: true, frequency: "1 time", price: 1300 }
+  ],
+  trialGuest: [
+    { type: "Tiffin", mealType: "Veg", frequency: "1 time", price: 90 },
+    { type: "Tiffin", mealType: "Non-veg", frequency: "1 time", price: 130 },
+    { type: "Dine In", mealType: "Veg", frequency: "1 time", price: 100 },
+    { type: "Dine In", mealType: "Non-veg", frequency: "1 time", price: 140 }
+  ],
+  tenDaysPlan: [
+    { mealType: "Veg", type: "Full tiffin", frequency: "2 time", roti: "5-7", price: 800 },
+    { mealType: "Non-Veg", type: "Full tiffin", frequency: "2 time", roti: "5-7", price: 900 },
+    { mealType: "Veg", type: "Half tiffin", frequency: "2 time", roti: "3", price: 600 },
+    { mealType: "Non-Veg", type: "Half tiffin", frequency: "2 time", roti: "3", price: 700 },
+    { mealType: "Veg", type: "Full tiffin", frequency: "1 time", roti: "5-7", price: 400 },
+    { mealType: "Non-Veg", type: "Full tiffin", frequency: "1 time", roti: "5-7", price: 450 }
+  ],
+  fifteenDaysPlan: [
+    { mealType: "Veg", type: "Full tiffin", frequency: "2 time", roti: "5-7", price: 1200 },
+    { mealType: "Non-Veg", type: "Full tiffin", frequency: "2 time", roti: "5-7", price: 1300 },
+    { mealType: "Veg", type: "Half tiffin", frequency: "2 time", roti: "3", price: 800 },
+    { mealType: "Non-Veg", type: "Half tiffin", frequency: "2 time", roti: "3", price: 900 },
+    { mealType: "Veg", type: "Full tiffin", frequency: "1 time", roti: "5-7", price: 600 },
+    { mealType: "Non-Veg", type: "Full tiffin", frequency: "1 time", roti: "5-7", price: 650 }
+  ]
+};
+
 export default menuData;

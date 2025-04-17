@@ -23,9 +23,9 @@ const MonthlyDineInFullPricing = () => {
           <TableHeader className="bg-gray-100">
             <TableRow>
               <TableHead className="text-center bg-dabbewallah-peach text-gray-900">Dine In<br />Veg Boys</TableHead>
-              <TableHead className="text-center bg-dabbewallah-peach text-gray-900">Dine In<br />Veg Girl</TableHead>
-              <TableHead className="text-center bg-dabbewallah-soft-orange text-gray-900">Dine In<br />Non-veg Boy</TableHead>
-              <TableHead className="text-center bg-dabbewallah-soft-orange text-gray-900">Dine In<br />Non-veg Girl</TableHead>
+              <TableHead className="text-center bg-dabbewallah-peach text-gray-900">Dine In<br />Veg Girls</TableHead>
+              <TableHead className="text-center bg-dabbewallah-soft-orange text-gray-900">Dine In<br />Non-veg Boys</TableHead>
+              <TableHead className="text-center bg-dabbewallah-soft-orange text-gray-900">Dine In<br />Non-veg Girls</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
@@ -36,10 +36,10 @@ const MonthlyDineInFullPricing = () => {
               <TableCell className="text-center bg-dabbewallah-soft-orange/20">Unlimited for 1 person</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell className="text-center bg-dabbewallah-peach/20">2 time</TableCell>
-              <TableCell className="text-center bg-dabbewallah-peach/20">2 time</TableCell>
-              <TableCell className="text-center bg-dabbewallah-soft-orange/20">2 time</TableCell>
-              <TableCell className="text-center bg-dabbewallah-soft-orange/20">2 time</TableCell>
+              <TableCell className="text-center bg-dabbewallah-peach/20">2 times</TableCell>
+              <TableCell className="text-center bg-dabbewallah-peach/20">2 times</TableCell>
+              <TableCell className="text-center bg-dabbewallah-soft-orange/20">2 times</TableCell>
+              <TableCell className="text-center bg-dabbewallah-soft-orange/20">2 times</TableCell>
             </TableRow>
             <TableRow>
               <TableCell className="text-center font-bold bg-dabbewallah-peach/20">₹2300</TableCell>

@@ -22,12 +22,12 @@ const MonthlyTiffinPricing = () => {
         <Table>
           <TableHeader className="bg-gray-100">
             <TableRow>
-              <TableHead className="text-center bg-dabbewallah-peach text-gray-900">Full Tiffin Veg<br />2 time</TableHead>
-              <TableHead className="text-center bg-dabbewallah-soft-orange text-gray-900">Full Tiffin Non-veg<br />2 time</TableHead>
+              <TableHead className="text-center bg-dabbewallah-peach text-gray-900">Full Tiffin Veg<br />2 times</TableHead>
+              <TableHead className="text-center bg-dabbewallah-soft-orange text-gray-900">Full Tiffin Non-veg<br />2 times</TableHead>
               <TableHead className="text-center bg-dabbewallah-peach text-gray-900">Full Tiffin Veg<br />1 time</TableHead>
               <TableHead className="text-center bg-dabbewallah-soft-orange text-gray-900">Full Tiffin Non-veg<br />1 time</TableHead>
-              <TableHead className="text-center bg-dabbewallah-peach text-gray-900">Half Tiffin Veg<br />2 time</TableHead>
-              <TableHead className="text-center bg-dabbewallah-soft-orange text-gray-900">Half Tiffin Non-veg<br />2 time</TableHead>
+              <TableHead className="text-center bg-dabbewallah-peach text-gray-900">Half Tiffin Veg<br />2 times</TableHead>
+              <TableHead className="text-center bg-dabbewallah-soft-orange text-gray-900">Half Tiffin Non-veg<br />2 times</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
@@ -40,8 +40,8 @@ const MonthlyTiffinPricing = () => {
               <TableCell className="text-center bg-dabbewallah-soft-orange/20">3 roti</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell className="text-center font-bold bg-dabbewallah-peach/20">₹2300rs</TableCell>
-              <TableCell className="text-center font-bold bg-dabbewallah-soft-orange/20">₹2400rs</TableCell>
+              <TableCell className="text-center font-bold bg-dabbewallah-peach/20">₹2300</TableCell>
+              <TableCell className="text-center font-bold bg-dabbewallah-soft-orange/20">₹2400</TableCell>
               <TableCell className="text-center font-bold bg-dabbewallah-peach/20">₹1300</TableCell>
               <TableCell className="text-center font-bold bg-dabbewallah-soft-orange/20">₹1400</TableCell>
               <TableCell className="text-center font-bold bg-dabbewallah-peach/20">₹1600</TableCell>

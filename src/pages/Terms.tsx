@@ -1,13 +1,13 @@
 
 import { ClipboardCheck } from 'lucide-react';
-import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { termsAndConditions } from '../data/menuData';
 
 const Terms = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      <Navbar />
+      <Header />
       
       <main className="flex-grow bg-gray-50">
         <section className="py-12 px-4">

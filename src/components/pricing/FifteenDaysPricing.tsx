@@ -22,10 +22,10 @@ const FifteenDaysPricing = () => {
         <Table>
           <TableHeader className="bg-gray-100">
             <TableRow>
-              <TableHead className="text-center bg-dabbewallah-peach text-gray-900">Veg<br />Full tiffin<br />2 time</TableHead>
-              <TableHead className="text-center bg-dabbewallah-soft-orange text-gray-900">Non-Veg<br />Full tiffin<br />2 time</TableHead>
-              <TableHead className="text-center bg-dabbewallah-peach text-gray-900">Veg<br />Half tiffin<br />2 time</TableHead>
-              <TableHead className="text-center bg-dabbewallah-soft-orange text-gray-900">Non-Veg<br />Half tiffin<br />2 time</TableHead>
+              <TableHead className="text-center bg-dabbewallah-peach text-gray-900">Veg<br />Full tiffin<br />2 times</TableHead>
+              <TableHead className="text-center bg-dabbewallah-soft-orange text-gray-900">Non-Veg<br />Full tiffin<br />2 times</TableHead>
+              <TableHead className="text-center bg-dabbewallah-peach text-gray-900">Veg<br />Half tiffin<br />2 times</TableHead>
+              <TableHead className="text-center bg-dabbewallah-soft-orange text-gray-900">Non-Veg<br />Half tiffin<br />2 times</TableHead>
               <TableHead className="text-center bg-dabbewallah-peach text-gray-900">Veg<br />Full tiffin<br />1 time</TableHead>
               <TableHead className="text-center bg-dabbewallah-soft-orange text-gray-900">Non-Veg<br />Full tiffin<br />1 time</TableHead>
             </TableRow>

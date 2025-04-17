@@ -1,8 +1,9 @@
-
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, ChefHat } from 'lucide-react';
 
+// This component is deprecated. Please use Header.tsx instead.
+// Keeping this for backward compatibility but should eventually be removed.
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -26,8 +27,9 @@ const Navbar = () => {
           <div className="hidden md:flex space-x-6">
             <Link to="/" className="hover:text-dabbewallah-orange transition-colors">Home</Link>
             <Link to="/menu" className="hover:text-dabbewallah-orange transition-colors">Menu</Link>
+            <Link to="/pricing" className="hover:text-dabbewallah-orange transition-colors">Pricing</Link>
             <Link to="/contact" className="hover:text-dabbewallah-orange transition-colors">Contact</Link>
-            <Link to="/terms" className="hover:text-dabbewallah-orange transition-colors">Terms & Conditions</Link>
+            <Link to="/terms" className="hover:text-dabbewallah-orange transition-colors">Terms</Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -46,8 +48,9 @@ const Navbar = () => {
           <div className="container mx-auto px-4 py-2 flex flex-col space-y-3">
             <Link to="/" className="py-2 hover:text-dabbewallah-orange" onClick={toggleMenu}>Home</Link>
             <Link to="/menu" className="py-2 hover:text-dabbewallah-orange" onClick={toggleMenu}>Menu</Link>
+            <Link to="/pricing" className="py-2 hover:text-dabbewallah-orange" onClick={toggleMenu}>Pricing</Link>
             <Link to="/contact" className="py-2 hover:text-dabbewallah-orange" onClick={toggleMenu}>Contact</Link>
-            <Link to="/terms" className="py-2 hover:text-dabbewallah-orange" onClick={toggleMenu}>Terms & Conditions</Link>
+            <Link to="/terms" className="py-2 hover:text-dabbewallah-orange" onClick={toggleMenu}>Terms</Link>
           </div>
         </div>
       )}

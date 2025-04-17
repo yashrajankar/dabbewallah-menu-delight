@@ -78,8 +78,8 @@ const Pricing = () => {
                       <TableCell className="text-center bg-dabbewallah-soft-orange/20">3 roti</TableCell>
                     </TableRow>
                     <TableRow>
-                      <TableCell className="text-center font-bold bg-dabbewallah-peach/20">₹2300</TableCell>
-                      <TableCell className="text-center font-bold bg-dabbewallah-soft-orange/20">₹2400</TableCell>
+                      <TableCell className="text-center font-bold bg-dabbewallah-peach/20">₹2300rs</TableCell>
+                      <TableCell className="text-center font-bold bg-dabbewallah-soft-orange/20">₹2400rs</TableCell>
                       <TableCell className="text-center font-bold bg-dabbewallah-peach/20">₹1300</TableCell>
                       <TableCell className="text-center font-bold bg-dabbewallah-soft-orange/20">₹1400</TableCell>
                       <TableCell className="text-center font-bold bg-dabbewallah-peach/20">₹1600</TableCell>

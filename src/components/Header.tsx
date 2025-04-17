@@ -30,6 +30,9 @@ const Header = () => {
             <Link to="/menu" className="text-dabbewallah-black hover:text-dabbewallah-orange transition-colors font-medium">
               Menu
             </Link>
+            <Link to="/pricing" className="text-dabbewallah-black hover:text-dabbewallah-orange transition-colors font-medium">
+              Pricing
+            </Link>
             <Link to="/contact" className="text-dabbewallah-black hover:text-dabbewallah-orange transition-colors font-medium">
               Contact
             </Link>
@@ -65,6 +68,13 @@ const Header = () => {
                 onClick={() => setIsOpen(false)}
               >
                 Menu
+              </Link>
+              <Link
+                to="/pricing"
+                className="text-dabbewallah-black hover:text-dabbewallah-orange transition-colors font-medium px-2 py-1"
+                onClick={() => setIsOpen(false)}
+              >
+                Pricing
               </Link>
               <Link
                 to="/contact"
